@@ -1,0 +1,54 @@
+{
+  "_args": [
+    [
+      "fn-safe-run@1.0.4",
+      "/Users/tarasenkoks/Data/projects/mobile-app/mobile/Synctuition"
+    ]
+  ],
+  "_from": "fn-safe-run@1.0.4",
+  "_id": "fn-safe-run@1.0.4",
+  "_inBundle": false,
+  "_integrity": "sha512-wVUdlgu+0UVMDQCwf2HOe52Ja/oge8v4ptVstVm9JftkVWX2gKbbqEfWzS/V0rjtYwo2JY5/R0JcihuaARIxiw==",
+  "_location": "/fn-safe-run",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "fn-safe-run@1.0.4",
+    "name": "fn-safe-run",
+    "escapedName": "fn-safe-run",
+    "rawSpec": "1.0.4",
+    "saveSpec": null,
+    "fetchSpec": "1.0.4"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/fn-safe-run/-/fn-safe-run-1.0.4.tgz",
+  "_spec": "1.0.4",
+  "_where": "/Users/tarasenkoks/Data/projects/mobile-app/mobile/Synctuition",
+  "author": {
+    "name": "tarasenko kirill"
+  },
+  "dependencies": {
+    "lodash": "4.17.11"
+  },
+  "description": "Util for a safe run functions with params (or not)",
+  "keywords": [
+    "safe",
+    "run",
+    "function",
+    "util",
+    "is",
+    "not",
+    "a",
+    "function"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "fn-safe-run",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.4"
+}
