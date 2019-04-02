@@ -1,8 +1,12 @@
-import isFunction from 'lodash/isFunction';
-import get from 'lodash/get';
+var isFunction = require('lodash').isFunction;
 
-export const checkAndRun = (func, ...args) => isFunction(func) && func(...args);
-export const checkAndRunLog = (func, ...args) =>
+var checkAndRun = (func, ...args) => isFunction(func) && func(...args);
+var checkAndRunLog = (func, ...args) =>
   isFunction(func)
     ? func(...args)
     : console.log(`Argument ${func} is not a function`);
+
+module.exports = {
+  checkAndRun: checkAndRun,
+  checkAndRunLog: checkAndRunLog
+}
